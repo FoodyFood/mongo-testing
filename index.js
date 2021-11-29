@@ -14,7 +14,7 @@ console.log("Connection String: " + connectionstring);
 
 
 // Use connect method to connect to the server
-const dbName = 'infra-push';
+const dbName = 'database';
 const client = new MongoClient(connectionstring);
 
 
